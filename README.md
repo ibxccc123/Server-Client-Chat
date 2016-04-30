@@ -14,3 +14,5 @@ Commands: start_server(), start_client(ClientName, ServerNode), request_chat(QCl
 For the Java side, the server and the client communicate among each other via low-level sockets.  The server splits off separate threads for each respective client, so that it is able to handle simulantaeous and different queries from clients.
 All commands are parsed as strings by BufferedReaders in the Client.java code.
 Commands: goOnline(name), requestChatWith(name), goOffline(). 
+
+Written in May 2014.
